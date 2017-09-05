@@ -2,7 +2,7 @@
 # A library of sorts providing various facilities for booze
 # filesystems.
 
-enable -f ./booze.so booze
+enable -f "$(findso booze.so)" booze
 
 __getmacros() { gcc -E -dD -x c - <<<"#include <$1.h>"; }
 
