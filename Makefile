@@ -1,7 +1,7 @@
 
 CC = gcc
 
-INCLUDES = /usr/include/bash /usr/include/bash/builtins
+INCLUDES = /usr/include/bash-plugins
 DEFINES = _GNU_SOURCE
 
 LIBFLAGS = -shared -fPIC
