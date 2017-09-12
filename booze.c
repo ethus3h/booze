@@ -13,12 +13,12 @@
 
 #include <fuse.h>
 
-#include "builtins.h"
-#include "shell.h"
-#include "bashgetopt.h"
-#include "common.h"
-#include "execute_cmd.h"
-#include "error.h"
+#include "/UPM/Sources/bash-4.4/builtins.h"
+#include "/UPM/Sources/bash-4.4/shell.h"
+#include "/UPM/Sources/bash-4.4/builtins/bashgetopt.h"
+#include "/UPM/Sources/bash-4.4/builtins/common.h"
+#include "/UPM/Sources/bash-4.4/execute_cmd.h"
+#include "/UPM/Sources/bash-4.4/error.h"
 
 #define __wdname(name, num) __##name##_word_desc##num
 #define __wlname(name, num) __##name##_word_list##num
